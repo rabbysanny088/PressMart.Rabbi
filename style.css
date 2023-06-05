@@ -85,70 +85,100 @@ body{
 
 /* REVOLUTION START HERE  */
 
-.menj-one{
-    background-color: gainsboro;
+.carousel{
+    background-color: #f8f8f8;
 }
 
-
-
-.menj-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 1006px;
+.feshon-section{
+    margin-top: 87px;
     width: 100%;
-    padding: 22px;
+    height: auto;
 }
 
+.feshon-title-main{
+    margin-top: 34px;
+    margin-left: 88px;
+}
 
-.menj-6{
-    font-size: 3rem;
-    font-weight: 600;
+.feshon-title-one{
     font-family: 'Dancing Script', cursive;
-}
-
-
-.menj-7{
-    
-    font-size: 3rem;
-    font-weight: 800;
+    font-size: 63px;
+    font-weight: bolder;
 
 }
 
 
+.feshon-title-two{
+    font-size: 77px;
+    margin-top: -19px;
+    font-weight: bolder;
+}
 
-.menj-8{
-    font-size: 2rem;
+.feshon-title-three{
+    font-size: 42px;
     font-weight: 400;
+    margin-top: -14px;
 }
 
+.feshon-bu{
 
+}
 
+.feshon-bu-one{
+    margin-left: -119px;
+}
 
-
-
-
-.menj-main{
+.feshon-th{
+    background-color: #048567;
     color: #fff;
-    border-color: rgb(5, 148, 115);
-    background-color: rgb(5, 148, 115);
-    margin-top: 25px;
-    padding: 14px;
-    font-size: 19px;
+    padding: 11px 24px;
+    font-size: 20px;
+    border: none;
     font-weight: 600;
-    width: 18%;
-    height: auto;
+    margin-right: 25px;
 }
 
-.menj-mare{
-    color: rgb(5, 148, 115);
-    border-color: rgb(24, 158, 120);
-    margin-top: 25px;
-    padding: 14px;
-    font-size: 19px;
+    
+.feshon-tr{
+    background-color: transparent;
+    color: #048567;
+    padding: 9px 24px;
+    font-size: 20px;
     font-weight: 600;
-    width: 18%;
-    height: auto;
+    border: 3px solid #048567;
+}
+
+.feshon-img{
+    margin-left: 175px;
+
+}
+
+.feshon-title-new{
+    margin-left: 150px;
+    margin-top: 34px;
+}
+
+.feshon-title-four{
+    font-family: 'Dancing Script', cursive;
+    font-size: 63px;
+    font-weight: bolder;
+}
+
+
+.feshon-title-five{
+    font-size: 77px;
+    margin-top: -19px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+
+.feshon-title-six{
+    font-size: 42px;
+    font-weight: 400;
+    margin-top: -14px;
+    text-transform: uppercase;
+
 }
 
 /* REVOLUTION end HERE  */
@@ -661,13 +691,54 @@ form input{
 
   
 @media (max-width:992px) {
-    .menj-one{
-    width: 100%;
-    height: auto;
+
+    
+    .feshon-img{
+        margin-left: 0px;
+
     }
 
-    .free-main-2 i{
-        font-size: 40px;
+    .feshon-title-new{
+        margin-left: 0px;
+    }
+
+    .feshon-title-one{
+        font-size: 24px;
+    }
+
+    .feshon-title-two{
+        font-size: 45px;
+    }
+
+    .feshon-title-three{
+        font-size: 26px;
+    }
+
+    .feshon-th{
+        font-size: 12px;
+        padding: 8px 25px;
+    
+    }
+
+    .feshon-tr{
+        font-size: 12px;
+        padding: 6px 22px;
+    
+    }
+
+    .feshon-title-four{
+        font-size: 32px;
+
+    }
+
+    .feshon-title-five{
+        font-size: 45px;
+
+    }
+
+    .feshon-title-six{
+        font-size: 26px;
+
     }
 
     .free-main-3 i{
@@ -806,34 +877,52 @@ form input{
         width: 147%;
     }
 
+
    
 }
 
 
 @media (max-width:792px) {
-    .menj-6{
-        font-size: 35px;
+   
+    .feshon-title-one{
+        font-size: 26px;
     }
 
-    .menj-7{
-        font-size: 40px;
+    .feshon-title-two{
+        font-size: 38px;
     }
 
-    .menj-8{
+    .feshon-title-three{
         font-size: 20px;
     }
 
-    .menj-mare{
-        width: 20%;
-        font-size: 18px;
-        padding: 10px;
+    .feshon-title-main{
+        margin-left: 24px;
     }
 
-    .menj-main{
-        width: 20%;
-        font-size: 18px;
-        padding: 10px;
+    .feshon-th{
+        font-size: 10px;
     }
+
+    .feshon-tr{
+        font-size: 9px;
+        padding: 6px 22px;
+    }
+
+    .feshon-title-four{
+        font-size: 26px;
+
+    }
+
+    .feshon-title-five{
+        font-size: 38px;
+
+    }
+
+    .feshon-title-six{
+        font-size: 20px;
+
+    }   
 
     .featur-heading-1{
     font-size: 20px;
@@ -868,30 +957,46 @@ form input{
 
 
 @media (max-width:600px) {
-    .menj-6{
-        font-size: 25px;
+  
+    .feshon-title-one{
+        font-size: 18px;
     }
 
-    .menj-7{
-        font-size: 25px;
+    .feshon-title-two{
+        font-size: 26px;
     }
 
-    .menj-8{
+
+    .feshon-title-three{
         font-size: 16px;
     }
 
-    .menj-mare{
-        width: 20%;
-        font-size: 15px;
-        padding: 10px;
+
+    .feshon-tr{
+        font-size: 9px;
+    
     }
 
-    .menj-main{
-        width: 20%;
-        font-size: 15px;
-        padding: 10px;
+    .feshon-th{
+        font-size: 9px;
+    
     }
 
+    .feshon-title-four{
+        font-size: 18px;
+
+    }
+
+    .feshon-title-five{
+        font-size: 26px;
+
+    }
+
+
+    .feshon-title-six{
+        font-size: 16px;
+
+    }
     .title-btn{
         left: 360px;
     }
@@ -903,12 +1008,14 @@ form input{
         width: 51%;
     }
 
-    .menj-main{
-        font-size: 7px;
-    }
+    .feshon-th{
 
-    .menj-mare{
-        font-size: 7px;
+        padding: 8px 10px;    }
+
+    .feshon-tr{
+
+ 
+        padding: 5px 7px;
     }
 
     .free-header{
